@@ -1,3 +1,8 @@
+-----------------------------------------------------------------------------------
+-- Stored Procedure Load from bronze to silver
+-- This Script perform ETL process on bronze layer and loaded it into silver layer
+-- To execute this procedure "call silver.silver_etl_load()"
+-----------------------------------------------------------------------------------
 CREATE OR REPLACE PROCEDURE silver.silver_etl_load()
 LANGUAGE plpgsql
 AS $$
